@@ -60,7 +60,7 @@ function Notification() {
             <span className="name">Danny Miles</span>
             <span>commented on your post</span>
           </div>
-          <div className="time">3 min ago</div>
+          <div className="time">3 week ago</div>
         </div>
       </div>
       <div className="notification-container">
@@ -72,7 +72,7 @@ function Notification() {
             <span className="name">Haris web design</span>
             <span>commented on your post</span>
           </div>
-          <div className="time">3 min ago</div>
+          <div className="time">1 month ago</div>
         </div>
       </div>
       <div className="notification-container">
@@ -84,7 +84,7 @@ function Notification() {
             <span className="name">john due</span>
             <span>commented on your post</span>
           </div>
-          <div className="time">3 min ago</div>
+          <div className="time">14 jan 2021</div>
         </div>
       </div>
     </div>
