@@ -1,0 +1,423 @@
+.form{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+.form-head{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 40px;
+}
+.form-head > div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.form-head h2{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.form-head>div  span{
+    padding: 10px 20px;
+    background-color: #EFEFEF;
+    border-radius: 20px;
+}
+.form .close{
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.form button i{
+    color: #fff;
+    margin-top: 3px;
+}
+.form button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0B78BC;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.form-icons-container{
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.icons{
+    position: relative;
+    transition: 0.5s ease;
+}
+.icons>div i {
+    font-size: 40px;
+    color: #b5b5b5;transition: 0.5s ease;
+}
+.complete > div{
+    background-color: #b3edc0 !important;
+}
+.complete >div i{
+    color: #27a243;
+}
+.icons.complete span{
+    color: #27a243;
+}
+.active > div{
+    background-color: #c0e4fb !important;
+}
+.active >div i{
+    color: #08598b;
+}
+.icons.active  span{
+    color: #08598b;
+}
+.lignthrough{
+    position: absolute;
+    height: 2px;
+    background-color: #eee;
+    left: 0;
+    right: 0;
+    top: 50px;
+    /* z-index: -1; */
+    max-width: 90%;
+    margin: auto;
+}
+.icons > span {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #b5b5b5;
+    transition: 0.5s ease;
+}
+.icons > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #eee;
+    margin: auto;
+    margin-bottom: 15px;
+    transition: 0.5s ease;
+}
+
+select{
+    width: 100%;
+    padding: 15px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-color: rgba(38, 52, 60, 0.1);
+    background-color: #fff;
+    color: #485861;
+    border-radius: 5px;
+    outline: none;
+}
+.top-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed rgba(38, 52, 60, 0.1);
+    margin-bottom: 30px;
+}
+.input-container > div{
+    display: flex;
+    align-items: center;
+}
+.input-container>div input{
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+.input-container>div span{
+    background-color: #0B78BC;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-container>div span i{
+    color: #fff;
+}
+/* .input-container label{} */
+ label{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 10px !important;
+    display: block;
+    font-weight: 500;
+}
+.rows{
+    padding-bottom: 30px;
+    border-bottom: 1px dashed rgba(38, 52, 60, 0.1);
+    margin-bottom: 20px;
+}
+.input-container-intake-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+.input-container-intake-items-list span {
+    background-color: #0B78BC;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-container-intake .del {
+    background-color: #ffbfbd;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-container-intake .del i{
+    color: red;
+}
+.input-container-intake span i{
+    color: #fff;
+}
+.input-container-intake .intake-field{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.intake-field input{
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+.form-body > h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.rows > h2{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.input-container-intake-items .input-container-intake-items-list > div{
+    width: 100%;
+}
+.input-container-intake-items .input-container-intake-items-list{
+    border: 1px solid rgba(38, 52, 60, 0.1);
+    padding: 10px;
+    background-color: #F9F8FC;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.intake-field-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.red{
+    color: red;
+}
+.form button.addrow{
+    width: fit-content;
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: #d9effd;
+    color: #0d8ad8;
+}
+.form button.addrow i{
+    color: #0d8ad8;
+}
+.tags{
+
+}
+.tags .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.tags button.addrow {
+    margin-top: 0;
+}
+.tag-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.tag-items .del i{
+    color: red;
+}
+.tag-items > div{
+    display: flex;
+    gap: 10px;
+}
+.tag-items .del{
+    background-color: #ffbfbd;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tag-items input{
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.tags > button.addrow{
+    margin-top: 20px;
+}
+.tags{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(38, 52, 60, 0.1);
+    margin-bottom: 40px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+.buttons > div i{
+    color: #0B78BC;
+}
+.buttons > div:hover i{
+    color:#fff ;
+}
+.buttons > div:hover{
+    background: #0B78BC;
+    color: #fff;
+}
+
+.buttons > div{
+    border: 1px solid;
+    width: 100px;
+    padding: 10px 18px;
+    outline: none !important;
+    background: #fff;
+    border-color: #0B78BC;
+    color: #0B78BC;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 10px;
+}
+.disabled{
+    cursor: not-allowed !important;
+    background-color: #b5b5b5 !important;
+    border-color:#b5b5b5 !important ;
+}
+.select{
+    width: 100%;
+    display: block!important;
+}
+.select input{
+    min-height: 36px;
+}
+.select span{
+    width: auto !important;
+    height: auto !important;
+    background-color: none !important;
+}
+.newcourse{
+    transition: 0.5s ease;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.newcourse.active {
+    height: 110px;
+}
+.coursetag-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.fileinputdiv{
+    border: 1px solid #fff;
+    border-color: rgba(38, 52, 60, 0.1);
+    border-radius: 5px;
+}
+.fileinput input{
+    border: 0;
+    max-height: 50px;
+    opacity: 0;
+}
+.fileinput{
+    position: relative;
+    border: 0;
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+.fileinput h2{
+    position: absolute;
+    height: fit-content;
+    text-align: center;
+    left: 0%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.fileinput h2 div{
+    color: #b5b5b5;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+textarea{
+    width: 100%;
+    padding: 15px;
+    min-height: 70px;
+    border: 1px solid #fff;
+    border-color: rgba(38, 52, 60, 0.1);
+    background-color: #fff;
+    color: #485861;
+    resize: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.tags h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.form-pages h2{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    text-align: left;
+    width: 50px;
+}
+.error{
+    color: red;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.rows .error{
+    margin-top: 0;
+}
+.coursetag-container .error{
+    margin-top: -20px;
+}

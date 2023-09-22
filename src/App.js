@@ -1,23 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { Link, Route, Routes } from 'react-router-dom';
+import Card from './components/card/Card';
+import Form from './components/form/form';
+import Notification from './components/notifications/Notification';
+import Page from './components/page/Page';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ul>
+        <li>
+          <Link to="/">home</Link>
+        </li>
+        <li>
+          <Link to="/page">about</Link>
+        </li>
+        <li>
+          <Link to="/notification">notification</Link>
+        </li>
+        <li>
+          <Link to="/form">form</Link>
+        </li>
+      </ul>
+
+        <Routes>
+          <Route path="/" element={<Card />} />
+          <Route path="/page" element={<Page />} />
+          <Route path="/notification" element={<Notification />} />
+          <Route
+            path="/form"
+            element={
+              <div className="form-page">
+                <Form />
+              </div>
+            }
+          />
+        </Routes>
+      {/* <div className="">
+        <Card />
+      </div>
+      <div>
+        <Page />
+      </div>
+      <div>
+        <Notification />
+      </div>
+      <div className="form-page">
+        <Form />
+      </div> */}
     </div>
   );
 }

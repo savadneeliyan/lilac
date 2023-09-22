@@ -1,0 +1,42 @@
+.notification{
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.notification-container.active,.notification-container:hover{
+    background-color: #cce5ff;
+}
+.notification-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+}
+.notification-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.edumpus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.notification-logo.edumpus img{
+    max-width: 80%;
+    margin: auto;
+}
+.notification-logo img{
+    width: 100%;
+}
+.notification-container  .time{
+    margin-top: 10px;
+}
+.notification-container .message .name{
+    font-weight: 600;
+    margin-right: 6px;
+}

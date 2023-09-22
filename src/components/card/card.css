@@ -1,0 +1,139 @@
+.card-wrapper{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+.card{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.card-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: azure;
+    padding-bottom: 20px;
+}
+.card-head-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.card-head .new{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #07D078;
+    background-color: #56f9b2;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.card-img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.tick{
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    background-color: #c0fde2;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+.tick i{
+    font-size: 13px;
+    color: #07D078;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card-name h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #26343C;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.card-name span {
+    font-size: 15px;
+    color: #26343C;
+    font-weight: 500;
+}
+.edit{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #b3b3f5cd;
+}
+.edit i {
+    color :#0B78BC;
+}
+.card-body{
+    background-color: azure;
+    padding: 20px;
+}
+.card-body-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.card-items i{
+    width: 16px;
+}
+.card-items{
+    display: flex;
+    gap: 15px;
+}
+.card-items span{
+    font-weight: 500;
+}
+.card-body-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.card-body-bottom .bottom-logo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #6a6a6a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+}
+.card-body-bottom span{
+    font-weight: 600;
+    color: #13678b;
+    background-color: #c5e8f7;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.card-body-bottom .bottom-logo img{
+    width: 100%;
+    max-width: 30px;
+}
