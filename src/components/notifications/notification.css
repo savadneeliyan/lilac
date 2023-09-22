@@ -14,10 +14,12 @@
     padding: 20px;
     /* margin-bottom: 20px; */
 }
+.notification-logo{}
 .notification-logo{
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    overflow: hidden;
 }
 .edumpus{
     display: flex;
